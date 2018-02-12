@@ -1,0 +1,49 @@
+// stylelint-disable declaration-no-important
+
+// Shadows extension
+.shadow-01 { box-shadow: 1px 1px 6px rgba(0, 0, 0, .15); }
+.shadow-02 { box-shadow: 2px 2px 8px rgba(0, 0, 0, .15); }
+.shadow-03 { box-shadow: 3px 3px 10px rgba(0, 0, 0, .15); }
+
+// Borders extension
+@for $i from 1 through 5 {
+  .border-#{$i}        { border: #{$i}px solid; }
+  .border-top-#{$i}    { border-top: #{$i}px solid; }
+  .border-right-#{$i}  { border-right: #{$i}px solid; }
+  .border-bottom-#{$i} { border-bottom: #{$i}px solid; }
+  .border-left-#{$i}   { border-left: #{$i}px solid; }
+}
+
+// Rounded extension
+.rounded-1 {
+  border-radius: 1.25rem !important;
+}
+
+// List ext. Striped list
+.list-striped {
+  li:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+}
+
+// Background ext. Grays
+@each $key, $color in $grays {
+  .bg-gray-#{$key} {
+    background-color: $color !important;
+  }
+}
+
+// flex-column collapse fix
+.flex-column {
+  &.collapse {
+    display: none;
+    &.show { display: flex; }
+  }
+  &.collapsing { display: block; }
+}
+
+// Dropdown position fix
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}

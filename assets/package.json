@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap_theming",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "css-main": "vendor\\bootstrap\\node_modules\\.bin\\npm-run-all --parallel css-lint css-compile --sequential css-prefix css-minify",
+    "css-compile": "vendor\\bootstrap\\node_modules\\.bin\\node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 custom/1.0.0/scss/style.scss custom/1.0.0/css/style.css",
+    "css-lint": "vendor\\bootstrap\\node_modules\\.bin\\stylelint --config vendor/bootstrap/build/.stylelintrc --syntax scss \"custom/1.0.0/scss/**/*.scss\"",
+    "css-prefix": "vendor\\bootstrap\\node_modules\\.bin\\postcss --config vendor/bootstrap/build/postcss.config.js --replace \"custom/1.0.0/css/*.css\"",
+    "css-minify": "vendor\\bootstrap\\node_modules\\.bin\\cleancss --level 1 --source-map --source-map-inline-sources --output custom/1.0.0/css/style.min.css custom/1.0.0/css/style.css",
+    "watch-css-main": "vendor\\bootstrap\\node_modules\\.bin\\nodemon --ignore vendor/ -e scss -x \"npm run css-main\""
+  },
+  "author": "neuethemes",
+  "private": true
+}

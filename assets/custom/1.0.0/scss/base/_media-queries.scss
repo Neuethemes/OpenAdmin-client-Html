@@ -1,0 +1,72 @@
+// stylelint-disable declaration-no-important
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {  }
+
+// @media (max-width: 1199px) { }
+
+@media (max-width: 991px) {
+
+  .sidebar-left {
+    //position: fixed;
+    width: 4rem;
+    overflow: visible !important;
+    text-align: center;
+
+    .collapse-wrapper {
+      width: 4rem;
+    }
+
+    i { margin-right: 0; }
+
+    /* overlay sub levels on small screens */
+    nav {
+      .collapse.show,
+      .collapsing {
+        position: relative;
+        top: 0;
+        z-index: 1;
+        width: 190px;
+      }
+      > .nav-link {
+        padding: .75rem .5rem;
+        text-align: center;
+      }
+
+      /* hide caret icons of top level when collapsed */
+      .nav-link::after { display: none; }
+    }
+  }
+  .search-form { display: none !important; }
+
+  .logo { display: none; }
+  .logo-mobile { display: inline-block !important; }
+
+}
+
+@media (max-width: 767px) {
+
+  .service-icons { display: none !important; }
+
+}
+
+
+@media (max-width: 575px) {
+
+  .top-toolbar,
+  .content-wrapper,
+  .main-footer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+}

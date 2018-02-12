@@ -1,0 +1,89 @@
+
+//.btn {
+//  padding: .5rem .75rem;
+//  border-width: 1px;
+//  border-radius: 2px;
+//  &:focus {
+//    outline: none;
+//    box-shadow: none;
+//  }
+//}
+//
+//.btn-group-lg > .btn,
+//.btn-lg {
+//  padding: .5rem 1rem .6rem;
+//  font-size: 1.25rem;
+//  line-height: 1.5;
+//  border-radius: 2px;
+//}
+//
+//.btn-group-sm > .btn,
+//.btn-sm {
+//  padding: .25rem .5rem .37rem;
+//  font-size: .875rem;
+//  line-height: 1.5;
+//  border-radius: 1px;
+//}
+
+.btn-icon {
+  box-sizing: content-box;
+  width: 1.9rem;
+  height: 1.9rem;
+  padding: 0;
+  i {
+    //font-size: 1rem;
+    line-height: 1.7rem;
+    vertical-align: text-top;
+  }
+}
+
+.btn-icon-sm {
+  box-sizing: content-box;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  i {
+    font-size: .8rem;
+    line-height: 1.5rem;
+    //vertical-align: text-top;
+  }
+}
+
+.btn-icon-lg {
+  box-sizing: content-box;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  i {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    vertical-align: text-top;
+  }
+}
+
+.btn .badge-hint {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  padding: .1rem .3rem .13rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.input-group-built-in {
+  .form-control {
+    padding-right: 2.2rem;
+  }
+  .input-group-btn {
+    z-index: 3;
+    margin-left: -2.2rem;
+  }
+}
+
+.btn-transparent {
+  background-color: rgba(0, 0, 0, .1);
+  border: none;
+}

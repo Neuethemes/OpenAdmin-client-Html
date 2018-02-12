@@ -1,0 +1,44 @@
+
+// Logo
+
+
+.logo {
+  position: relative;
+  i {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    color: $logo-icon_color;
+    background: $logo-icon_bg;
+  }
+  .logo-title {
+    color: $logo-title_color;
+    letter-spacing: .4rem;
+  }
+  p { color: $logo-subtitle_color; }
+}
+
+// Inverted Logo
+.logo.logo-dark {
+  i {
+    color: $logo-dark-icon_color;
+    background: $logo-dark-icon_bg;
+  }
+  .logo-title { color: $logo-dark-title_color; }
+}
+
+.logo-mobile {
+  position: relative;
+  display: none;
+  padding: 1.2rem 0;
+  i {
+    width: 40px;
+    height: 40px;
+    font-size: 22px; // rem?
+    line-height: 40px;
+    color: $logo-icon_color;
+    background: $logo-icon_bg;
+    transition: all .3s ease-in-out;
+  }
+}

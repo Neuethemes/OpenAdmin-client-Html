@@ -1,0 +1,26 @@
+// Bootstrap customization
+$enable-rounded: false;
+$form-group-margin-bottom: 1.5rem;
+$form-check-input-gutter: 1.5rem;
+$link-hover-decoration: none;
+$font-family-sans-serif: "open sans", "Helvetica Neue", helvetica, arial, sans-serif;
+$link-color: inherit;
+$link-hover-color: rgba(0, 0, 0, .8);
+$font-size-base: .8rem;
+
+// Bootstrap
+@import "../../../vendor/bootstrap/scss/bootstrap";
+
+// Theme styles based on bootstrap
+@import "themes/bootstrap/theme";
+@import "layout/layout";
+@import "layout/sidebar-right";
+@import "layout/sidebar-left";
+@import "layout/nav";
+@import "elements/buttons";
+@import "components/widget";
+@import "components/logo";
+@import "helpers/extensions";
+@import "pages/login";
+@import "pages/404";
+@import "base/media-queries";

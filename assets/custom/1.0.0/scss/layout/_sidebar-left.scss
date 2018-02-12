@@ -1,0 +1,10 @@
+.sidebar-left {
+  z-index: 3;
+  width: 16rem;
+  min-height: 100vh;
+  overflow: hidden;
+  transition: all .3s ease;
+  .collapse-wrapper {
+    width: 16rem;
+  }
+}

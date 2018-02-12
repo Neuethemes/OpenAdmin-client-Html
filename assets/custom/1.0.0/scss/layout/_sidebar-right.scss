@@ -1,0 +1,24 @@
+
+.sidebar-right {
+  position: fixed;
+  top: 80px;
+  right: -300px;
+  bottom: 0;
+  z-index: 1009;
+  width: 280px;
+  overflow: hidden;
+  background: $right-sidebar_bg;
+  border-top: 1px solid $right-sidebar_border;
+  border-left: 1px solid $right-sidebar_border;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .1);
+  transition: all 200ms ease-out;
+  .sidebar-container {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+  }
+  .tab-content ul {
+    height: calc(100vh - 220px);
+    overflow-y: auto;
+  }
+}

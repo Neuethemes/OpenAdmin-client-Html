@@ -1,0 +1,67 @@
+
+// Logo
+$logo-icon_color:                                           $gray-900;
+$logo-icon_bg:                                              $gray-300;
+$logo-title_color:                                          $gray-300;
+$logo-subtitle_color:                                       $gray-400;
+
+// Dark logo
+$logo-dark-icon_bg:                                         $gray-900;
+$logo-dark-icon_color:                                      $gray-100;
+$logo-dark-title_color:                                     $gray-900;
+
+
+// Dark Nav
+$nav-dark-item_color:                                       $gray-300;
+$nav-dark-item_border-color:                                $gray-700;
+$nav-dark-item_hover-color:                                 $white;
+
+// Nav Tabs
+$nav-tabs_border:                                           $gray-300;
+$nav-tabs-navlink_bg:                                       $gray-200;
+$nav-tabs-navlink_color:                                    $gray-500;
+$nav-tabs-navlink-hover_color:                              $gray-500;
+$nav-tabs-navlink-active_color:                             $gray-700;
+$nav-tabs-navlink-active_bg:                                $gray-100;
+
+// Dark Nav Tabs
+$nav-tabs-dark_bg:                                          $gray-800;
+$nav-tabs-dark_border:                                      $gray-800;
+$nav-tabs-dark-navlink_color:                               $white;
+$nav-tabs-dark-navlink_bg:                                  $gray-800;
+$nav-tabs-dark-navlink_border:                              $transparent;
+$nav-tabs-dark-navlink_hover-color:                         $white;
+$nav-tabs-dark-navlink_hover-bg:                            $gray-400;
+$nav-tabs-dark-navlink_active-color:                        $gray-900;
+$nav-tabs-dark-navlink_active-bg:                           $white;
+
+// Right Sidebar
+$right-sidebar_bg:                                          $white;
+$right-sidebar_border:                                      $gray-200;
+
+// Widget
+$widget-footer-link_color:                                  $transparent-b-6;
+$widget-footer-link_hover-color:                            $transparent-b-7;
+$widget_bg:                                                 $white;
+$widget-subtitle_color:                                     $transparent-b-6;
+
+// Dark widget
+$widget-dark-footer-link_color:                             $transparent-w-6;
+$widget-dark-footer-link_hover-color:                       $white;
+$widget-dark-header_color:                                  $white;
+$widget-dark-subtitle_color:                                $transparent-w-6;
+$widget-dark-content-p_color:                               $white;
+$widget-dark_bg:                                            $gray-800;
+$widget-dark-header-line_bg:                                $green;
+$widget-dark-service-icon_bg:                               $transparent-w-4;
+$widget-dark-service-icon_color:                            $white;
+$widget-dark-service-icon_hover-bg:                         $transparent-w-5;
+$widget-dark-service-icon_hover-color:                      $white;
+
+// Login page
+$login-form-control-border_color:                           $transparent-b-9;
+$login-form-control_bg:                                     $white;
+$login-form-control_color:                                  $gray-600;
+$login-form-control-placeholder_color:                      $gray-300;
+$login-forgot_color:                                        $gray-400;
+$login-forgot-hover_color:                                  $gray-400;
