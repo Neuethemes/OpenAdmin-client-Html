@@ -9,6 +9,7 @@
   form {
     width: 330px;
     .form-control {
+      margin: 0.2rem;
       color: $login-form-control_color;
       background-color: $login-form-control_bg;
       border-color: $login-form-control-border_color;

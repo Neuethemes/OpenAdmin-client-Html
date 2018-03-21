@@ -9243,6 +9243,11 @@ a.text-dark:focus, a.text-dark:hover {
   transition: all .3s ease-in-out;
 }
 
+.shadow-00 {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
 .shadow-01 {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
@@ -9429,6 +9434,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .login-page form .form-control,
 .register-page form .form-control {
+  margin: 0.2rem;
   color: #868e96;
   background-color: #fff;
   border-color: rgba(0, 0, 0, 0.15);

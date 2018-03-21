@@ -4,7 +4,7 @@
   /** Document ready handler **/
   $(function () {
 
-    $('[data-toggle="collapse-width"]').on('click', function() {
+    $('[data-toggle="collapse-width"]').on('click', function () {
       var collapsedElement = $($(this).attr("data-target"));
 
       if (!collapsedElement.hasClass("collapsed-width")) {
@@ -17,7 +17,7 @@
       }
     });
 
-    $('[data-toggle="slide-right"]').on('click', function() {
+    $('[data-toggle="slide-right"]').on('click', function () {
       var slidedElement = $($(this).attr("data-target"));
 
       if (!slidedElement.hasClass("slided")) {
@@ -30,12 +30,14 @@
       }
     });
 
-    toastr.options = {
-      "closeButton": true,
-      "progressBar": true,
-      "positionClass": "toast-bottom-right",
-    };
-    toastr["info"]("Non-blocking notifications available!", "Info");
+    if (window.toastr !== undefined) {
+      toastr.options = {
+        "closeButton": true,
+        "progressBar": true,
+        "positionClass": "toast-bottom-right",
+      };
+      toastr["info"]("Non-blocking notifications available!", "Info");
+    }
 
   });
 
