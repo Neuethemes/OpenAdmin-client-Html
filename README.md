@@ -23,7 +23,7 @@ OpenAdmin Dashboard theme includes a static HTML + Bootstrap4 version for easy i
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-30.png "divider")
 
-#### [OpenAdmin Dashboard Main Page](https://github.com/Neuethemes/OpenAdmin)
+#### [OpenAdmin Dashboard Project Main Github Page](https://github.com/Neuethemes/OpenAdmin)
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-20.png "divider")
 
