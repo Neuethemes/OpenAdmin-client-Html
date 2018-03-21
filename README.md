@@ -9,6 +9,8 @@ http://openadmin.neuethemes.net/client/html/
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-30.png "divider")
 
 [<img align="left" src="https://neuethemes.net/wp-content/uploads/logos-tech-01-html.jpg" alt="OpenAdmin HTML">](https://github.com/Neuethemes/OpenAdmin-client-Html)
+OpenAdmin was built on latest Bootstrap version and uses all it's powerful features.
+
 OpenAdmin Dashboard theme includes a static HTML + Bootstrap4 version for easy integration with other frameworks. This Admin template realization was used as the base of all other versions of this theme.
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-30.png "divider")
