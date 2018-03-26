@@ -23,11 +23,13 @@ OpenAdmin Dashboard theme includes a static HTML + Bootstrap4 version for easy i
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-30.png "divider")
 
-#### [OpenAdmin Dashboard Main Page](https://github.com/Neuethemes/OpenAdmin)
+## See also
+
+#### [OpenAdmin Dashboard Project Main Github Page](https://github.com/Neuethemes/OpenAdmin)
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-20.png "divider")
 
-## Another OpenAdmin Client versions
+### Another OpenAdmin Client versions
 
 #### [Free Angular OpenAdmin Dashboard](https://github.com/Neuethemes/OpenAdmin-client-Angular)
 #### [Free React OpenAdmin Dashboard](https://github.com/Neuethemes/OpenAdmin-client-React)
@@ -35,7 +37,7 @@ OpenAdmin Dashboard theme includes a static HTML + Bootstrap4 version for easy i
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-20.png "divider")
 
-## Available Servers
+### Available Servers
 
 #### [Free NodeJS OpenAdmin Server](https://github.com/Neuethemes/OpenAdmin-server-NodeJS)
 #### [Free Python OpenAdmin Server](https://github.com/Neuethemes/OpenAdmin-server-Python)
@@ -43,7 +45,7 @@ OpenAdmin Dashboard theme includes a static HTML + Bootstrap4 version for easy i
 
 ![divider](https://neuethemes.net/wp-content/uploads/transparent-30.png "divider")
 
-## Main Dashboard Screenshot
+### Main Dashboard Screenshot
 
 ![OpenAdmin Dashboard](https://neuethemes.net/wp-content/uploads/01-openadmin-screen-01.jpg "OpenAdmin Dashboard")
 
